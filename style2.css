@@ -1,0 +1,38 @@
+
+
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            color: red;
+        }
+
+        .courses-container {  
+            display: flex;
+            flex-wrap: wrap; 
+            justify-content: space-around; 
+            gap: 20px;
+        }
+
+        .course-box {
+            width: calc(33% - 20px); 
+            border: 1px solid #ccc;
+            padding: 20px;
+            text-align: center;
+            box-sizing: border-box; 
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        
+        
